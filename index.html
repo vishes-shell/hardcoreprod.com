@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+
+    <style>
+        /* preloader */
+
+        #page-preloader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: #000;
+            z-index: 100500;
+        }
+
+        #page-preloader .spinner {
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            background: url('images/spinner.gif') no-repeat 50% 50%;
+            margin: -16px 0 0 -16px;
+        }
+    </style>   
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hardcore Production</title>
@@ -11,7 +36,8 @@
     <link rel="stylesheet" href="nomalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body> 
+<body>
+   <div id="page-preloader"><span class="spinner"></span></div>
     <nav class="navbar navbar-default header">
       <div class="container-fluid">
        <div class="header-contact mail text-type-2">

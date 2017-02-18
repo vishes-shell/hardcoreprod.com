@@ -1,3 +1,5 @@
+
+
 /* base */
 
 body {
@@ -514,7 +516,7 @@ a:hover {
     left: 50%;
     margin-left: -125px;
     text-align: center;
-    font-family: opensans;
+    font-family: OpenSans;
     font-size: 10px;
     letter-spacing: 1px;
     padding: 20px 0 10px 0;
