@@ -72,10 +72,10 @@ wow.init();
             $('.mail').css('transform','translate(' + percentageMail + 'px, -17px)');
             $('.phone').addClass('header-contact-phone');
             $('.logotype-wrapper').addClass('logotype-wrapper-fixed');
-            $('.logotype-wrapper').css(	'-webkit-transform', 'translate(-' + transformWidth + 'px,-' + transformHeight + 'px)');
-            $('.logotype-wrapper').css(	'-moz-transform', 'translate(-' + transformWidth + 'px,-' + transformHeight + 'px)');
-            $('.logotype-wrapper').css(	'-ms-transform', 'translate(-' + transformWidth + 'px,-' + transformHeight + 'px)');
-            $('.logotype-wrapper').css(	'transform', 'translate(-' + transformWidth + 'px,-' + transformHeight + 'px)');
+            $('.logotype-wrapper').css( '-webkit-transform', 'translate(-' + transformWidth + 'px,-' + transformHeight + 'px)');
+            $('.logotype-wrapper').css( '-moz-transform', 'translate(-' + transformWidth + 'px,-' + transformHeight + 'px)');
+            $('.logotype-wrapper').css( '-ms-transform', 'translate(-' + transformWidth + 'px,-' + transformHeight + 'px)');
+            $('.logotype-wrapper').css( 'transform', 'translate(-' + transformWidth + 'px,-' + transformHeight + 'px)');
             $('.logotype-label').hide();
         } else {
             $('.header').removeClass('header-fixed');
@@ -84,7 +84,7 @@ wow.init();
             $('.mail').css('transform','none');
             $('.phone').removeClass('header-contact-phone');
             $('.logotype-wrapper').removeClass('logotype-wrapper-fixed');
-            $('.logotype-wrapper').css(	'-webkit-transform', 'none');
+            $('.logotype-wrapper').css( '-webkit-transform', 'none');
             $('.logotype-label').show();
         }
     });
@@ -94,11 +94,15 @@ wow.init();
         $('.portfolio-video-wrapper').show();
         $('.video-close').show();
         $('.portfolio-video-wrapper').html($('.portfolio-video-wrapper').html().replace('src=""', link));
+        $('.blackout').show();
+        $('body').css('overflow-y','hidden');
     });
     
     $('.video-close').click(function () {
         $(this).hide();
         $('.portfolio-video-wrapper').hide();
+        $('.blackout').hide();
+        $('body').css('overflow-y','visible');
     });
     
     feedbackCounter = 0;
