@@ -55,7 +55,17 @@ wow.init();
     windowHeight = $(window).height();
     transformHeight = windowHeight * 0.465 - 35;
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-     transformHeight = windowHeight * 0.465;
+        var lastScrollTop = 0;
+        $(window).scroll(function(event){
+           var st = $(this).scrollTop();
+           if (st > lastScrollTop){
+               transformHeight = windowHeight * 0.465;
+           } else {
+              transformHeight = windowHeight * 0.465 - 35;
+           }
+           lastScrollTop = st;
+        });
+        
     }
     
     clicked = false
