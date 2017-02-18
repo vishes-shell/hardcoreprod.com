@@ -43,8 +43,10 @@ wow.init();
     });
     
     $('#video').css('min-height', $(window).height() + 'px');
+    $('.video-wrapper').css('min-height', $(window).height() + 'px');
     $(window).resize(function () {
         $('#video').css('min-height', $(window).height() + 'px');
+        $('.video-wrapper').css('min-height', $(window).height() + 'px');
     });
     
     windowWidth = $(window).width();
@@ -52,6 +54,9 @@ wow.init();
     
     windowHeight = $(window).height();
     transformHeight = windowHeight * 0.465 - 35;
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+     transformHeight = windowHeight * 0.465;
+    }
     
     clicked = false
     $('.navbar-toggle').click(function () {
