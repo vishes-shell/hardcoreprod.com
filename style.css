@@ -1,4 +1,6 @@
+/* fonts */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /* base */
 
@@ -29,64 +31,64 @@ img {
 /* headers */
 
 .header-1 {
-    font-family: OpenSans;
-    font-size: 48px;
-    font-weight: 900;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 4px;
-    text-align: center;
-    color: #1b1b1b;
+	font-family: OpenSans;
+	font-size: 48px;
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 4px;
+	text-align: center;
+	color: #1b1b1b;
 }
 
 .header-2 {
-    font-family: UbuntuBold;
-    font-size: 24px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 5.5px;
-    text-align: center;
-    color: #1b1b1b;
+	font-family: UbuntuBold;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 5.5px;
+	text-align: center;
+	color: #1b1b1b;
     margin-bottom: 14%;
 }
 
 .header-3 {
-    font-family: UbuntuBold;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #1b1b1b;
+	font-family: UbuntuBold;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #1b1b1b;
 }
 
 .text-type-1 {
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.56;
-    letter-spacing: 2.9px;
-    text-align: center;
-    color: #1b1b1b;
+	font-family: 'Roboto';
+	font-size: 14px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.56;
+	letter-spacing: 2.9px;
+	text-align: center;
+	color: #1b1b1b;
     -webkit-font-smoothing: antialiased;
 }
 
 .text-type-2 {
-    font-family: OpenSans;
-    font-size: 11px;
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.82;
-    letter-spacing: 2px;
-    color: #1b1b1b;
+	font-family: OpenSans;
+	font-size: 11px;
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.82;
+	letter-spacing: 2px;
+	color: #1b1b1b;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -147,7 +149,7 @@ a:hover {
 /* section VIDEO */
 
 #video {
-    min-width: 100%;
+	min-width: 100%;
 }
 
 .video-wrapper {
@@ -193,7 +195,7 @@ a:hover {
 }
 
 .about-wrapper .header-2 {
-    color: #f1f1f1;
+	color: #f1f1f1;
     margin-bottom: 0;
 }
 
@@ -212,8 +214,8 @@ a:hover {
 /* section WHY WE */
 
 .why-we-wrapper {
-    padding-left: 16%;
-    padding-right: 16%;
+	padding-left: 16%;
+	padding-right: 16%;
     padding-bottom: 0;
 }
 
@@ -222,7 +224,7 @@ a:hover {
 }
 
 .why-we-item {
-    text-align: center;
+	text-align: center;
     margin-top: 10%;
     height: 300px;
 }
@@ -233,18 +235,18 @@ a:hover {
 }
 
 .why-we-header {
-    margin: 34px 0 17px;
+	margin: 34px 0 17px;
 }
 
 /* section FORMATS */
 
 .formats-wrapper {
-    padding-left: 16%;
-    padding-right: 16%;
+	padding-left: 16%;
+	padding-right: 16%;
 }
 
 .formats-wrapper .icon {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .formats-item {
@@ -254,11 +256,11 @@ a:hover {
 }
 
 .formats-item-header {
-    padding: 5%;
+	padding: 5%;
 }
 
 .formats-item-price,.formats-item-row {
-    border-top: solid 1px #ccc;
+	border-top: solid 1px #ccc;
     padding: 5%;
 }
 
@@ -270,7 +272,7 @@ a:hover {
 /* section PORTFOLIO */
 
 .blackout {
-    width: 100%;
+	width: 100%;
     height: 100%;
     position: fixed;
     top: 0;
@@ -282,19 +284,19 @@ a:hover {
 }
 
 .portfolio-wrapper {
-    padding-left:  0;
-    padding-right:  0;
+	padding-left:  0;
+	padding-right:  0;
 }
 
 .portfolio-item {
-    padding: 0;
+	padding: 0;
     font-size: 0;
     cursor: pointer;
     margin-top: -1px;
 }
 
 .portfolio-item-description {
-    position: absolute;
+	position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -308,7 +310,7 @@ a:hover {
 }
 
 .portfolio-image-wrapper:hover .portfolio-item-description{
-    opacity: 0.9;
+	opacity: 0.9;
 }
 
 .portfolio-video-wrapper {
@@ -331,7 +333,7 @@ a:hover {
 }
 
 .video-close {
-    color: #ccc;
+	color: #ccc;
     position: fixed;
     height: 30px;
     width: 30px;
@@ -349,23 +351,23 @@ a:hover {
 }
 
 .video-link {
-    display: none;
+	display: none;
 }
 
 /* section ADDITIONAL */
 
 .additional-wrapper {
-    background-image: url(images/background/additional.jpg);
+	background-image: url(images/background/additional.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .additional-wrapper .header-2{
-    color: #f1f1f1;
+	color: #f1f1f1;
 }
 
 .additional-wrapper .formats-item-header, .additional-wrapper .formats-item-price {
-    color: #f1f1f1;
+	color: #f1f1f1;
 }
 
 .additional-wrapper .formats-item-row {
@@ -373,7 +375,7 @@ a:hover {
 }
 
 .additional-wrapper .formats-item, .additional-wrapper .formats-item-row, .additional-wrapper .formats-item-price {
-    border: solid 1px #f1f1f1;
+	border: solid 1px #f1f1f1;
 }
 
 .additional-text {
@@ -385,7 +387,7 @@ a:hover {
 /* section CLIENTS */
 
 .clients-wrapper {
-    padding-bottom: 7%;
+	padding-bottom: 7%;
 }
 
 .icon-style-1 {
@@ -397,14 +399,14 @@ a:hover {
 }
 
 .logotypes-wrapper {
-    padding-left: 6%;
-    padding-right: 6%;
+	padding-left: 6%;
+	padding-right: 6%;
 }
 
 .clients-logotype-wrapper {
     text-align: center;
     padding: 0 30px;
-    float:none;
+  	float:none;
     display:inline-block;
     vertical-align:middle;
     margin-right: -4px;
@@ -414,7 +416,7 @@ a:hover {
 /* section FEEDBACK */
 
 .feedback-wrapper {
-    background-image: url(images/background/clients.jpg);
+	background-image: url(images/background/clients.jpg);
     background-size: cover;
     background-position: center;
     padding-bottom: 8.5%;
@@ -427,7 +429,7 @@ a:hover {
 }
 
 .feedbacks-line {
-    text-align: center;
+	text-align: center;
     display: inline-block;
     vertical-align: middle;
     position: relative;
@@ -440,11 +442,11 @@ a:hover {
 }
 
 .feedback-wrapper .text-type-1, .feedback-wrapper .text-type-2 {
-    color: #f1f1f1;
+	color: #f1f1f1;
 }
 
 .feedback-header-2 {
-    margin-bottom: 40px;
+	margin-bottom: 40px;
     color: #f1f1f1;
 }
 
@@ -456,15 +458,15 @@ a:hover {
 }
 
 .feedback-1 {
-    left: 0;
+	left: 0;
 }
 
 .feedback-2 {
-    left: 100%;
+	left: 100%;
 }
 
 .feedback-3 {
-    left: 200%;
+	left: 200%;
 }
 
 .arrow-wrapper {
@@ -475,20 +477,20 @@ a:hover {
 }
 
 .arrow-wrapper img{
-    width: 20%;
+	width: 20%;
 }
 
 /* section CONTACTS */
 
 .contacts-wrapper {
-    background-image: url(images/background/contact.jpg);
+	background-image: url(images/background/contact.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
 .contacts-wrapper .header-2{
-    color: #f1f1f1;
+	color: #f1f1f1;
 }
 
 .contacts-list {
@@ -497,13 +499,13 @@ a:hover {
 }
 
 .contacts-list-row {
-    margin-bottom: 76px;
+	margin-bottom: 76px;
     color: #f1f1f1;
     display: block;
 }
 
 .contacts-list-row .fa{
-    margin-right: 15px;
+	margin-right: 15px;
 }
 
 /* section FOOTER */
@@ -601,7 +603,7 @@ a:hover {
 
 @media (max-width: 991px) {
     .logo-hide {
-        display: none;
+	    display: none;
     }
     .logotype-label {
         font-size: 16px;
@@ -613,57 +615,57 @@ a:hover {
         width: 90%;
     }
     .arrow-wrapper img{
-        width: 45%;
+	    width: 45%;
     }
     .video-close {
-        top: 3%;
+	    top: 3%;
     }
     .logotype-wrapper {
     }
     .why-we-item {
-        height: 250px;
+	    height: 250px;
     }
 }
 
 @media (max-width: 767px) {
     #video {
-        display: none;
+	    display: none;
     }
 }
 
 @media (max-width: 500px) {
     .mail,.phone {
-        display: none;
+	    display: none;
     }
     .header-1 {
         font-size: 30px;
     }
     .header-2 {
-        font-size: 18px;
+	    font-size: 18px;
     }
     .header-3 {
-        font-size: 14px;
+	    font-size: 14px;
     }
     .text-type-1 {
-        font-size: 12px;
+	    font-size: 12px;
     }
     .text-type-2 {
-        font-size: 10px;
+	    font-size: 10px;
     }
     .feedbacks-line {
         height: 170px;
     }
     .arrow-wrapper img{
-        width: 100%;
+	    width: 100%;
     }
     .logotype-label {
-        font-size: 8px;
+	    font-size: 8px;
     }
     .additional-text {
-        width: 80%;
+	    width: 80%;
     }
     .formats-wrapper,.why-we-wrapper {
-        padding-left: 10px;
+	    padding-left: 10px;
         padding-right: 10px;
     }
 }
