@@ -469,6 +469,10 @@ a:hover {
 	left: 200%;
 }
 
+.feedback-4 {
+    left: 300%;
+}
+
 .arrow-wrapper {
     display: inline-block;
     cursor: pointer;

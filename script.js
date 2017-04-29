@@ -109,16 +109,18 @@ wow.init();
     });
     
     $('.portfolio-image-wrapper').click(function () {
-        var link = 'src="' + $('.video-link').html() + '"';
+
+        var link = jQuery(this).children('.video-link').html();
+        $('#portfolio-video').attr('src', link);
         $('.portfolio-video-wrapper').show();
         $('.video-close').show();
-        $('.portfolio-video-wrapper').html($('.portfolio-video-wrapper').html().replace('src=""', link));
         $('.blackout').show();
         $('body').css('overflow-y','hidden');
     });
     
     $('.video-close').click(function () {
         $(this).hide();
+        $('#portfolio-video').attr('src', "");
         $('.portfolio-video-wrapper').hide();
         $('.blackout').hide();
         $('body').css('overflow-y','visible');
